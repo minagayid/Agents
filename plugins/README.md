@@ -21,6 +21,17 @@ plugin-name/
 # or browse: /plugin > Discover
 ```
 
+## This repo's plugins — `agents-collection` marketplace
+
+```bash
+/plugin marketplace add minagayid/Agents
+```
+
+| Plugin | Description |
+|--------|-------------|
+| [`agent-starter`](agent-starter/README.md) | `/scaffold-agent` command that bootstraps a new agent project from the [SDK starters](../sdk/README.md). |
+| [`skills-pack`](skills-pack/README.md) | 10 ready-to-use engineering skills (commits, PRs, review, tests, Docker, REST, README, changelog, SQL, debugging). |
+
 ## Official plugins — [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
 
 ### Development workflow

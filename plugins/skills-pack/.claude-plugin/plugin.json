@@ -1,0 +1,20 @@
+{
+  "name": "skills-pack",
+  "version": "0.1.0",
+  "description": "A pack of ready-to-use engineering Agent Skills: commits, PRs, code review, tests, Dockerfiles, REST design, READMEs, changelogs, SQL optimization, and debugging.",
+  "author": {
+    "name": "minagayid"
+  },
+  "skills": [
+    "../../skills/library/conventional-commits",
+    "../../skills/library/pr-description",
+    "../../skills/library/code-review-checklist",
+    "../../skills/library/unit-test-writer",
+    "../../skills/library/dockerfile-author",
+    "../../skills/library/rest-api-designer",
+    "../../skills/library/readme-generator",
+    "../../skills/library/changelog-keeper",
+    "../../skills/library/sql-optimizer",
+    "../../skills/library/debugging-methodology"
+  ]
+}
