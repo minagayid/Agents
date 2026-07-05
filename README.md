@@ -13,7 +13,8 @@ upstream source and includes a short description and, where relevant, install co
 | 🧠 **Skills** | Agent Skills (`SKILL.md` capability modules) from Anthropic, Google, and the open Agent Skills standard | [`skills/`](skills/README.md) |
 | 🛠️ **Tools & Frameworks** | Agent SDKs, coding agents, and orchestration frameworks from Anthropic, OpenAI, and Google | [`tools/`](tools/README.md) |
 | 🔌 **MCP Servers** | Model Context Protocol servers — Unity, filesystem, git, browser automation, GitHub, and more | [`mcp/`](mcp/README.md) |
-| 🧩 **Plugins** | Claude Code plugins from the official Anthropic marketplace | [`plugins/`](plugins/README.md) |
+| 🧩 **Plugins** | Claude Code plugins — plus this repo's own installable `agent-starter` plugin | [`plugins/`](plugins/README.md) |
+| 📦 **SDK starters** | Runnable quickstart files for the Claude, OpenAI, and Google agent SDKs | [`sdk/`](sdk/README.md) |
 
 ## Quick reference
 
@@ -38,6 +39,16 @@ npx skills add google/skills
 
 **MCP servers** — expose tools/resources to any MCP client (Claude Code, Codex, ADK, VS Code…).
 Browse the [MCP Registry](https://github.com/modelcontextprotocol/registry) or see [`mcp/`](mcp/README.md).
+A ready‑to‑copy config for common servers is in [`mcp/mcp-servers.json`](mcp/mcp-servers.json).
+
+**SDK starters** — copy a folder from [`sdk/`](sdk/README.md), install deps, set the API key, and run.
+
+### This repo is also a plugin marketplace
+
+```bash
+/plugin marketplace add minagayid/Agents
+/plugin install agent-starter@agents-collection   # scaffold agents from the SDK starters
+```
 
 ## Sources
 

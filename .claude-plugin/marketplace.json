@@ -1,0 +1,16 @@
+{
+  "name": "agents-collection",
+  "owner": {
+    "name": "minagayid"
+  },
+  "metadata": {
+    "description": "A collection of skills, tools, MCP servers, and plugins for your agents."
+  },
+  "plugins": [
+    {
+      "name": "agent-starter",
+      "source": "./plugins/agent-starter",
+      "description": "Scaffold and run new AI agent projects (Claude Agent SDK, OpenAI Agents SDK, Google ADK) with tools and MCP servers wired in."
+    }
+  ]
+}

@@ -40,3 +40,20 @@ Agent SDKs, coding agents, and orchestration frameworks for building and running
 | [agents-cli](https://github.com/google/agents-cli) | CLI + skills that turn any coding assistant into an expert at creating/deploying agents on Google Cloud. | see repo |
 | [dotprompt](https://github.com/google/dotprompt) | Executable GenAI prompt templates. | see repo |
 | [litmus](https://github.com/google/litmus) | LLM testing & evaluation tool for GenAI apps. | see repo |
+
+## Essential ecosystem frameworks
+
+Widely‑used, provider‑agnostic frameworks for building agents and LLM apps.
+
+| Framework | Description | Install |
+|-----------|-------------|---------|
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | Composable framework for LLM apps (chains, tools, retrieval). | `pip install langchain` |
+| [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | Graph‑based orchestration for stateful, multi‑actor agents. | `pip install langgraph` |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Role‑playing multi‑agent orchestration. | `pip install crewai` |
+| [run-llama/llama_index](https://github.com/run-llama/llama_index) | Data framework for RAG and agents over your data. | `pip install llama-index` |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | Type‑safe agent framework from the Pydantic team. | `pip install pydantic-ai` |
+| [microsoft/autogen](https://github.com/microsoft/autogen) | Multi‑agent conversation framework. | `pip install autogen-agentchat` |
+| [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | Programming (not prompting) framework for LMs. | `pip install dspy` |
+| [vercel/ai](https://github.com/vercel/ai) | TypeScript toolkit for AI apps & agents (streaming, tools, UI). | `npm i ai` |
+| [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | TypeScript agent framework (workflows, RAG, evals). | `npm i @mastra/core` |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | Unified API + proxy for 100+ LLM providers. | `pip install litellm` |
