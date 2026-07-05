@@ -73,6 +73,11 @@ Agent Skills for Google products/technologies. Install with `npx skills add goog
 | Advertising & marketing | Google Ads API, Data Manager API, Mobile Ads, Interactive Media Ads |
 | Recipes | Cloud onboarding, authentication, network observability |
 
+## Full library
+
+For large community collections (1,000+ skills), discovery directories, and a map of common
+skill domains, see **[`CATALOG.md`](CATALOG.md)**.
+
 ## Creating your own
 
 Use the `skill-creator` skill (Anthropic) or the `skill-creator` plugin, and follow the spec in

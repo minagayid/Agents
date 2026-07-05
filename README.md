@@ -10,9 +10,9 @@ upstream source and includes a short description and, where relevant, install co
 
 | Category | What's in it | Catalog |
 |----------|--------------|---------|
-| 🧠 **Skills** | Agent Skills (`SKILL.md` capability modules) from Anthropic, Google, and the open Agent Skills standard | [`skills/`](skills/README.md) |
-| 🛠️ **Tools & Frameworks** | Agent SDKs, coding agents, and orchestration frameworks from Anthropic, OpenAI, and Google | [`tools/`](tools/README.md) |
-| 🔌 **MCP Servers** | Model Context Protocol servers — Unity, filesystem, git, browser automation, GitHub, and more | [`mcp/`](mcp/README.md) |
+| 🧠 **Skills** | Agent Skills from Anthropic, Google, the open standard + large community collections | [`skills/`](skills/README.md) · [library](skills/CATALOG.md) |
+| 🛠️ **Tools & Frameworks** | Agent SDKs, coding agents, and 20+ orchestration frameworks | [`tools/`](tools/README.md) |
+| 🔌 **MCP Servers** | 200+ Model Context Protocol servers across every domain | [`mcp/`](mcp/README.md) · [directory](mcp/CATALOG.md) |
 | 🧩 **Plugins** | Claude Code plugins — plus this repo's own installable `agent-starter` plugin | [`plugins/`](plugins/README.md) |
 | 📦 **SDK starters** | Runnable quickstart files for the Claude, OpenAI, and Google agent SDKs | [`sdk/`](sdk/README.md) |
 

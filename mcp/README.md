@@ -58,6 +58,11 @@ and awesome lists for the full set):
 > A ready‑to‑copy config for the most common servers lives in
 > [`mcp-servers.json`](mcp-servers.json).
 
+## Full directory
+
+For a broad, categorized directory of 200+ servers across search, databases, cloud, DevOps,
+finance, crypto, media, security, and more, see **[`CATALOG.md`](CATALOG.md)**.
+
 ## Curated lists & discovery
 
 - [MCP Registry](https://github.com/modelcontextprotocol/registry) — official published servers
