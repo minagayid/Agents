@@ -1,7 +1,7 @@
 {
   "name": "skills-pack",
-  "version": "0.1.0",
-  "description": "A pack of ready-to-use engineering Agent Skills: commits, PRs, code review, tests, Dockerfiles, REST design, READMEs, changelogs, SQL optimization, and debugging.",
+  "version": "0.2.0",
+  "description": "25 ready-to-use engineering Agent Skills across git, design, security, data/AI, cloud/DevOps, and docs/process.",
   "author": {
     "name": "minagayid"
   },
@@ -10,11 +10,26 @@
     "../../skills/library/pr-description",
     "../../skills/library/code-review-checklist",
     "../../skills/library/unit-test-writer",
-    "../../skills/library/dockerfile-author",
+    "../../skills/library/refactoring",
+    "../../skills/library/debugging-methodology",
     "../../skills/library/rest-api-designer",
+    "../../skills/library/react-component",
+    "../../skills/library/accessibility-audit",
+    "../../skills/library/web-performance",
+    "../../skills/library/sql-optimizer",
+    "../../skills/library/secure-coding-review",
+    "../../skills/library/threat-model",
+    "../../skills/library/dependency-audit",
+    "../../skills/library/data-cleaning",
+    "../../skills/library/exploratory-data-analysis",
+    "../../skills/library/prompt-engineering",
+    "../../skills/library/dockerfile-author",
+    "../../skills/library/kubernetes-manifest",
+    "../../skills/library/terraform-module",
+    "../../skills/library/github-actions-ci",
     "../../skills/library/readme-generator",
     "../../skills/library/changelog-keeper",
-    "../../skills/library/sql-optimizer",
-    "../../skills/library/debugging-methodology"
+    "../../skills/library/technical-writing",
+    "../../skills/library/incident-postmortem"
   ]
 }
