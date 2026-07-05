@@ -11,6 +11,11 @@
       "name": "agent-starter",
       "source": "./plugins/agent-starter",
       "description": "Scaffold and run new AI agent projects (Claude Agent SDK, OpenAI Agents SDK, Google ADK) with tools and MCP servers wired in."
+    },
+    {
+      "name": "skills-pack",
+      "source": "./plugins/skills-pack",
+      "description": "A pack of ready-to-use engineering Agent Skills: commits, PRs, code review, tests, Dockerfiles, REST design, READMEs, changelogs, SQL optimization, and debugging."
     }
   ]
 }

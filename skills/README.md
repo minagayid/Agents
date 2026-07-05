@@ -73,6 +73,17 @@ Agent Skills for Google products/technologies. Install with `npx skills add goog
 | Advertising & marketing | Google Ads API, Data Manager API, Mobile Ads, Interactive Media Ads |
 | Recipes | Cloud onboarding, authentication, network observability |
 
+## Ready-to-use skills (offline)
+
+This repo ships its own set of original, self-contained engineering skills in
+**[`library/`](library/README.md)** — commits, PRs, code review, tests, Dockerfiles, REST design,
+READMEs, changelogs, SQL optimization, and debugging. Install them as a bundle:
+
+```bash
+/plugin marketplace add minagayid/Agents
+/plugin install skills-pack@agents-collection
+```
+
 ## Full library
 
 For large community collections (1,000+ skills), discovery directories, and a map of common

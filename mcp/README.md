@@ -60,8 +60,9 @@ and awesome lists for the full set):
 
 ## Full directory
 
-For a broad, categorized directory of 200+ servers across search, databases, cloud, DevOps,
-finance, crypto, media, security, and more, see **[`CATALOG.md`](CATALOG.md)**.
+- **[`servers/`](servers/README.md)** — per-category lists with **repo links + install commands**
+  (search, browser, databases, cloud/DevOps, developer tools, productivity, AI/media, finance/crypto).
+- **[`CATALOG.md`](CATALOG.md)** — the broad name-only overview of 200+ servers across every domain.
 
 ## Curated lists & discovery
 

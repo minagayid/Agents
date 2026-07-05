@@ -10,10 +10,10 @@ upstream source and includes a short description and, where relevant, install co
 
 | Category | What's in it | Catalog |
 |----------|--------------|---------|
-| 🧠 **Skills** | Agent Skills from Anthropic, Google, the open standard + large community collections | [`skills/`](skills/README.md) · [library](skills/CATALOG.md) |
-| 🛠️ **Tools & Frameworks** | Agent SDKs, coding agents, and 20+ orchestration frameworks | [`tools/`](tools/README.md) |
-| 🔌 **MCP Servers** | 200+ Model Context Protocol servers across every domain | [`mcp/`](mcp/README.md) · [directory](mcp/CATALOG.md) |
-| 🧩 **Plugins** | Claude Code plugins — plus this repo's own installable `agent-starter` plugin | [`plugins/`](plugins/README.md) |
+| 🧠 **Skills** | 10 ready-to-use skills + Anthropic/Google/community catalogs | [`skills/`](skills/README.md) · [ready-to-use](skills/library/README.md) · [catalog](skills/CATALOG.md) |
+| 🛠️ **Tools & Frameworks** | Agent SDKs, coding agents, and 30+ orchestration frameworks | [`tools/`](tools/README.md) |
+| 🔌 **MCP Servers** | 200+ servers — name directory + per-category lists with install commands | [`mcp/`](mcp/README.md) · [linked lists](mcp/servers/README.md) · [directory](mcp/CATALOG.md) |
+| 🧩 **Plugins** | Official catalog + this repo's installable `agent-starter` & `skills-pack` | [`plugins/`](plugins/README.md) |
 | 📦 **SDK starters** | Runnable quickstart files for the Claude, OpenAI, and Google agent SDKs | [`sdk/`](sdk/README.md) |
 
 ## Quick reference
@@ -48,6 +48,7 @@ A ready‑to‑copy config for common servers is in [`mcp/mcp-servers.json`](mcp
 ```bash
 /plugin marketplace add minagayid/Agents
 /plugin install agent-starter@agents-collection   # scaffold agents from the SDK starters
+/plugin install skills-pack@agents-collection      # 10 ready-to-use engineering skills
 ```
 
 ## Sources
