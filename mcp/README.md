@@ -39,6 +39,25 @@ assets, run tests, profile, and build projects — all via natural language. MIT
 | [google/mcp-security](https://github.com/google/mcp-security) | Security‑focused MCP tools & packages. | see repo |
 | [google/sam](https://github.com/google/sam) | Sovereign Agent Mesh — MCP, network security, P2P. | see repo |
 
+## Popular integrations
+
+Common third‑party MCP servers (see the [MCP Registry](https://github.com/modelcontextprotocol/registry)
+and awesome lists for the full set):
+
+| Server | Description | Install |
+|--------|-------------|---------|
+| Slack | Post/read messages and manage channels. | `npx @modelcontextprotocol/server-slack` |
+| Notion | Query and update Notion pages/databases. | see [makenotion/notion-mcp-server](https://github.com/makenotion/notion-mcp-server) |
+| Sentry | Inspect errors and issues from Sentry. | see [getsentry/sentry-mcp](https://github.com/getsentry/sentry-mcp) |
+| Stripe | Interact with the Stripe API. | see [stripe/agent-toolkit](https://github.com/stripe/agent-toolkit) |
+| PostgreSQL | Read‑only queries and schema inspection. | `npx @modelcontextprotocol/server-postgres <conn>` |
+| SQLite | Query local SQLite databases. | `uvx mcp-server-sqlite --db-path <file>` |
+| Puppeteer | Headless browser automation. | `npx @modelcontextprotocol/server-puppeteer` |
+| Brave Search | Web search via the Brave API. | see [brave/brave-search-mcp-server](https://github.com/brave/brave-search-mcp-server) |
+
+> A ready‑to‑copy config for the most common servers lives in
+> [`mcp-servers.json`](mcp-servers.json).
+
 ## Curated lists & discovery
 
 - [MCP Registry](https://github.com/modelcontextprotocol/registry) — official published servers

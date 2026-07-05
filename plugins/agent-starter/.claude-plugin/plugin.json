@@ -1,0 +1,10 @@
+{
+  "name": "agent-starter",
+  "version": "0.1.0",
+  "description": "Scaffold and run new AI agent projects (Claude Agent SDK, OpenAI Agents SDK, Google ADK) with tools and MCP servers wired in.",
+  "author": {
+    "name": "minagayid"
+  },
+  "commands": ["./commands/scaffold-agent.md"],
+  "skills": ["../../skills/agent-project-scaffold"]
+}
