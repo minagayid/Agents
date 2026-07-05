@@ -57,3 +57,15 @@ Widely‑used, provider‑agnostic frameworks for building agents and LLM apps.
 | [vercel/ai](https://github.com/vercel/ai) | TypeScript toolkit for AI apps & agents (streaming, tools, UI). | `npm i ai` |
 | [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | TypeScript agent framework (workflows, RAG, evals). | `npm i @mastra/core` |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | Unified API + proxy for 100+ LLM providers. | `pip install litellm` |
+| [agno-agi/agno](https://github.com/agno-agi/agno) | High‑performance multi‑modal agent runtime + control plane. | `pip install agno` |
+| [letta-ai/letta](https://github.com/letta-ai/letta) | Stateful agents with long‑term memory (formerly MemGPT). | `pip install letta` |
+| [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | Enterprise SDK (Python/C#/Java) with plugins, memory, planning. | `pip install semantic-kernel` |
+| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | Pipeline framework for RAG, agents, and search. | `pip install haystack-ai` |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | Minimal code‑writing agent framework from Hugging Face. | `pip install smolagents` |
+| [firebase/genkit](https://github.com/firebase/genkit) | Google's GenAI app framework (JS/Go/Python). | `npm i genkit` |
+| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | LangChain for JavaScript/TypeScript. | `npm i langchain` |
+| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | Visual, low‑code builder for agents & flows. | `pip install langflow` |
+| [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | Drag‑and‑drop LLM app builder. | `npm i -g flowise` |
+| [langgenius/dify](https://github.com/langgenius/dify) | Open‑source LLM app development platform. | self‑host |
+| [n8n-io/n8n](https://github.com/n8n-io/n8n) | Workflow automation with native AI/agent nodes. | `npx n8n` |
+| [567-labs/instructor](https://github.com/567-labs/instructor) | Structured (typed) outputs from LLMs. | `pip install instructor` |
