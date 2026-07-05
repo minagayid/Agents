@@ -10,11 +10,11 @@ upstream source and includes a short description and, where relevant, install co
 
 | Category | What's in it | Catalog |
 |----------|--------------|---------|
-| 🧠 **Skills** | 10 ready-to-use skills + Anthropic/Google/community catalogs | [`skills/`](skills/README.md) · [ready-to-use](skills/library/README.md) · [catalog](skills/CATALOG.md) |
+| 🧠 **Skills** | 25 ready-to-use skills + Anthropic/Google/community catalogs | [`skills/`](skills/README.md) · [ready-to-use](skills/library/README.md) · [catalog](skills/CATALOG.md) |
 | 🛠️ **Tools & Frameworks** | Agent SDKs, coding agents, and 30+ orchestration frameworks | [`tools/`](tools/README.md) |
-| 🔌 **MCP Servers** | 200+ servers — name directory + per-category lists with install commands | [`mcp/`](mcp/README.md) · [linked lists](mcp/servers/README.md) · [directory](mcp/CATALOG.md) |
+| 🔌 **MCP Servers** | 200+ servers — name directory + 11 per-category lists with install commands | [`mcp/`](mcp/README.md) · [linked lists](mcp/servers/README.md) · [directory](mcp/CATALOG.md) |
 | 🧩 **Plugins** | Official catalog + this repo's installable `agent-starter` & `skills-pack` | [`plugins/`](plugins/README.md) |
-| 📦 **SDK starters** | Runnable quickstart files for the Claude, OpenAI, and Google agent SDKs | [`sdk/`](sdk/README.md) |
+| 📦 **SDK starters** | Runnable quickstarts: Claude (Py/TS), OpenAI (Py/TS), Google ADK (Py/Go/Java), LangGraph, CrewAI | [`sdk/`](sdk/README.md) |
 
 ## Quick reference
 

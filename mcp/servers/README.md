@@ -13,6 +13,9 @@ Per-domain lists with **repo links and install commands**. For the broad name-on
 | 🧰 Developer tools | [`developer-tools.md`](developer-tools.md) |
 | 💬 Productivity & communication | [`productivity-and-communication.md`](productivity-and-communication.md) |
 | 🎨 AI, data & media | [`ai-data-and-media.md`](ai-data-and-media.md) |
+| 🖌️ Design & content | [`design-and-content.md`](design-and-content.md) |
+| 📣 Marketing, CRM & e-commerce | [`marketing-and-crm.md`](marketing-and-crm.md) |
+| 🔒 Security | [`security.md`](security.md) |
 | 💳 Finance, payments & crypto | [`finance-and-crypto.md`](finance-and-crypto.md) |
 
 ## Notes
