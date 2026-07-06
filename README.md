@@ -15,6 +15,7 @@ upstream source and includes a short description and, where relevant, install co
 | 🔌 **MCP Servers** | 200+ servers — name directory + 11 per-category lists with install commands | [`mcp/`](mcp/README.md) · [linked lists](mcp/servers/README.md) · [directory](mcp/CATALOG.md) |
 | 🧩 **Plugins** | Official catalog + this repo's installable `agent-starter` & `skills-pack` | [`plugins/`](plugins/README.md) |
 | 📦 **SDK starters** | Runnable quickstarts: Claude (Py/TS), OpenAI (Py/TS), Google ADK (Py/Go/Java), LangGraph, CrewAI | [`sdk/`](sdk/README.md) |
+| 🌐 **Open APIs** | 280+ free & public APIs sorted by topic — usable in any project | [`apis/`](apis/README.md) |
 
 ## Quick reference
 
