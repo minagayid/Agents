@@ -28,6 +28,25 @@ Inspired by [public-apis/public-apis](https://github.com/public-apis/public-apis
 | 📬 Communication & messaging | [`communication-and-messaging.md`](communication-and-messaging.md) |
 | 🛒 Payments & commerce | [`payments-and-commerce.md`](payments-and-commerce.md) |
 | 🎨 Images, art & fun | [`images-art-and-random.md`](images-art-and-random.md) |
+| 💼 Jobs & business | [`jobs-and-business.md`](jobs-and-business.md) |
+| 🏠 Real estate & property | [`real-estate-and-property.md`](real-estate-and-property.md) |
+| ⛓️ Blockchain & web3 | [`blockchain-and-web3.md`](blockchain-and-web3.md) |
+| 🏡 IoT & smart home | [`iot-and-smart-home.md`](iot-and-smart-home.md) |
+| 🌱 Energy & environment | [`energy-and-environment.md`](energy-and-environment.md) |
+| 👥 Social & productivity | [`social-and-productivity.md`](social-and-productivity.md) |
+
+## Search & filter
+
+A dependency-free CLI, [`filter_apis.py`](filter_apis.py), parses every topic file so you can
+search the whole library from the terminal:
+
+```bash
+python apis/filter_apis.py --no-auth            # only APIs that need no key
+python apis/filter_apis.py --topic weather      # one topic
+python apis/filter_apis.py --search crypto      # keyword across name/description/topic
+python apis/filter_apis.py --auth OAuth         # by auth type
+python apis/filter_apis.py --search image --json # JSON output for piping
+```
 
 ## Columns
 
